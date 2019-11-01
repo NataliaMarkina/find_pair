@@ -1,0 +1,109 @@
+#restartGameButton {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+#winReport {
+  color: #FF2B2B;
+  visibility: hidden;
+}
+
+
+body {
+  font-family: 'Tinos', serif;
+  font-size: 1.5em;
+  text-align: center;
+  color: #000000;
+}
+
+div {
+  width:305px;
+  margin: auto;
+}
+
+[data-view="card"] {
+  transform: rotateY(180deg);
+  width: 72px;
+  height: 72px;
+  float: left;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid gray;
+}
+
+.flipped {
+  transition: 0.2s;
+  transform-style: preserve-3d;
+  position: relative;
+  transform: rotateY(0deg);
+}
+
+.reverse {
+  transition: 0.2s;
+  transform-style: preserve-3d;
+  position: relative;
+  transform: rotateY(180deg);
+}
+
+
+
+/* Cards */
+.correct[data-item="1"],
+.flipped[data-item="1"] {
+  background: #00FFFF;
+  background-size: contain;
+}
+
+.correct[data-item="2"],
+.flipped[data-item="2"] {
+  background: #68228B;
+  background-size: contain;
+}
+
+.correct[data-item="3"],
+.flipped[data-item="3"] {
+  background: #FFE1FF;
+  background-size: contain;
+}
+
+.correct[data-item="4"],
+.flipped[data-item="4"] {
+  background: #FF00FF;
+  background-size: contain;
+}
+
+.correct[data-item="5"],
+.flipped[data-item="5"] {
+  background: #8B1C62;
+  background-size: contain;
+}
+
+.correct[data-item="6"],
+.flipped[data-item="6"] {
+  background: #FF0000;
+  background-size: contain;
+}
+
+.correct[data-item="7"],
+.flipped[data-item="7"] {
+  background: #FFA500;
+  background-size: contain;
+}
+
+.correct[data-item="8"],
+.flipped[data-item="8"] {
+  background: #8B7355;
+  background-size: contain;
+}
+
+.correct[data-item="9"],
+.flipped[data-item="9"] {
+  background: #FFFF00;
+  background-size: contain;
+}
+
+.correct[data-item="10"],
+.flipped[data-item="10"] {
+  background: #00FF00;
+  background-size: contain;
+}
